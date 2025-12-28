@@ -1,6 +1,6 @@
 # PayMe
 
-![PayMe Demo](https://cryptopotato.com/wp-content/uploads/2025/01/Picture1-19.png)
+<img src="https://cryptopotato.com/wp-content/uploads/2025/01/Picture1-19.png" width="100%" alt="PayMe Demo">
 
 Payment enforcement for unpaid clients. A satirical JavaScript library that gradually degrades a website when payment is overdue.
 
@@ -106,7 +106,7 @@ Site gradually fades out 5% per day until invisible.
 
 - Day 1: 95% opacity
 - Day 10: 50% opacity
-- Day 20: 0% opacity
+- Day 20: 0% opacity (invisible)
 
 ## How It Works
 
