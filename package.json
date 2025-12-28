@@ -1,6 +1,6 @@
 {
 	"name": "@mini_7/payme",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Payment enforcement for unpaid clients",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "bun build index.ts --outdir=dist --target=browser"
+		"build": "bun build app/index.ts --outdir=dist --target=browser && tsc app/index.ts --declaration --emitDeclarationOnly --outDir dist"
 	},
 	"keywords": [
 		"payment",
@@ -16,5 +16,8 @@
 		"client"
 	],
 	"author": "Tyler",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	}
 }
