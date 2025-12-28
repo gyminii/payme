@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PayMe Test</title>
+	</head>
+	<body>
+		<h1>Test Website</h1>
+		<p>This is some content that should fade out.</p>
+		<p>Payment overdue by X days...</p>
+
+		<script type="module" src="./dist/index.js"></script>
+		<script type="module">
+			import payme from "./dist/index.js";
+
+			payme({ dueDate: "2025-11-18" });
+		</script>
+	</body>
+</html>

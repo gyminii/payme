@@ -1,0 +1,20 @@
+{
+	"name": "@mini_7/payme",
+	"version": "1.0.0",
+	"description": "Payment enforcement for unpaid clients",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "bun build index.ts --outdir=dist --target=browser"
+	},
+	"keywords": [
+		"payment",
+		"freelance",
+		"client"
+	],
+	"author": "Tyler",
+	"license": "MIT"
+}
